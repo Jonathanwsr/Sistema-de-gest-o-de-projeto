@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1rem;
+}
+
+.list {
+    display: flex;
+    gap: 5px; /* Espaçamento entre os itens */
+    list-style: none;
+    padding: 0;
+    margin: 5;
+    margin-left: auto; /* Empurra a lista para a direita */
+    align-items: center;
+  }
+  
+
+
+.item {
+
+    margin-right: 1rem;
+}
+
+.item a {
+
+color: #FFF;
+text-decoration: none;
+
+}
+
+
+.item a:houver {
+
+    color: #FFBB33;
+    
+    }
+    
+

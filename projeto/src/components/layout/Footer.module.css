@@ -1,0 +1,40 @@
+.footer {
+    background-color: #222;
+    color: #FFF;
+padding-right: 0%; /* Reduzi o tamanho do padding */
+    text-align: center;
+    position: absolute; /* Ou "fixed", se quiser que fique fixo */
+    bottom: 0;
+    width: 100%;
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px; /* Move os ícones um pouco para baixo */
+}
+
+.social_list li {
+    margin: 0 0.8em;
+}
+
+.social_list li:hover {
+    color: #ffbb33;
+}
+
+.social_list svg {
+    font-size: 1.2rem; /* Diminui um pouco os ícones */
+    cursor: pointer;
+}
+
+.copy_right {
+    margin-top: 10px; /* Move o texto "Costs © 2025" para cima */
+    font-size: 0.9rem; /* Reduzi o tamanho do texto */
+}
+
+.copy_right span {
+    font-weight: bold;
+    color: #ffbb33;
+}
